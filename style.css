@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "aftershok";
+    src: url('police/After_Shok-webfont.woff') format('woff');
+}
+body{
+    background:rgb(141, 190, 141);
+    font-family:'aftershok','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header
+{
+    text-align: center;
+    font-weight:bold important;   
+}
+#logo{
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+}
+h1 {
+    color:hsl(214, 100%, 38%);
+    font-weight: bold;
+    
+}
+#main{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background-color: #a4c3b2;
+    border-style: groove;
+    height: 600px;
+
+}
+
+
+li{
+    padding-top:15px;
+    text-align: center;
+    list-style: none;
+}
+footer,nav{
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.copyright{
+    text-align: center;
+}
+address{
+    padding-bottom: 15px;
+}
