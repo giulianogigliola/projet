@@ -3,11 +3,14 @@
     src: url('police/After_Shok-webfont.woff') format('woff');
 }
 body{
-    background:rgb(141, 190, 141);
+    background:#565254;
     font-family:'aftershok','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header
 {
+    position: fixed;
+    top: 0;
+    width: 100%;
     text-align: center;
     font-weight:bold important;   
 }
@@ -17,19 +20,26 @@ header
     height: 35px;
 }
 h1 {
-    color:hsl(214, 100%, 38%);
+    color:#D0CFCF;
+    text-shadow: 4px 4px 4px #7A7D7D ;
     font-weight: bold;
     
 }
 #main{
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    background-color: #a4c3b2;
-    border-style: groove;
-    height: 600px;
+    margin-top: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #565254;
 
 }
-
-
+article{
+    border:solid 2px #7A7D7D;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px #565254;
+    word-wrap: break-word;
+    color: white;
+}
 li{
     padding-top:15px;
     text-align: center;
@@ -38,8 +48,8 @@ li{
 footer,nav{
     border: 1px solid white;
     border-radius: 20px;
-}
 
+}
 .copyright{
     text-align: center;
 }
