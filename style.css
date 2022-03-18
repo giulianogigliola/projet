@@ -8,10 +8,6 @@ body{
 }
 header
 {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    text-align: center;
     font-weight:bold important;   
 }
 #logo{
@@ -45,7 +41,7 @@ li{
     text-align: center;
     list-style: none;
 }
-footer,nav{
+footer{
     border: 1px solid white;
     border-radius: 20px;
 

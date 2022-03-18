@@ -9,8 +9,9 @@
     <title>ma prémiere page </title>
 </head>
 <body>
-    <header>
-            <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <div class="container">
+        <header class="row">
+            <nav class="col fixed-top navbar navbar-expand navbar-dark bg-dark">
                 <a class="navbar-brand mx-2" href="index.html">
                 <img id="logo" src="img/vero-spade.png" alt="logo asso di picche">
                 asso di picche
@@ -21,38 +22,39 @@
                     </li>
                 </ul>
             </nav>
-        
-    </header>
-    
-    <div id="main"class="container-fluid">
-        <h1>Benvenue chez l'Association Asso di Picche</h1>
-        <section class="row">
-            <article class="col-2 mx-4 my-4">
-                <h2>
-                    art 1
-                </h2>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut voluptatum eligendi alias facere at ut omnis nesciunt harum perferendis corrupti. Ex molestias dolor molestiae veniam exercitationem eius! Nesciunt, voluptate placeat!
-            </article>
-            <article class="col-2 mx-4 my-4">
-                <h2>
-                    art 2
-                </h2>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, ullam, magnam veritatis sapiente quibusdam libero repellendus nam adipisci vel hic perspiciatis iure tenetur esse facilis nisi! Debitis consectetur ullam possimus.
-            </article>
-            <article class="col-2 mx-4 my-4">
-                <h2>
-                    art 3
-                </h2>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis deserunt quas corporis reiciendis illum debitis nobis, fugiat quidem quo iure sunt eius qui eum quisquam itaque vero ratione cupiditate neque!
-            </article>
-            <aside>
-                <iframe width="560" height="315" c src="https://www.youtube.com/embed/lPKB7cal5sE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </aside>
-        </section>
-
+        </header>
     </div>
-    
-    <footer id= "footer" class="container-fluid bg-dark ">
+    <div class="container">
+        <div id="main"class="row mx-auto">
+            <div class="col my-4 text-center">
+                <h1>Benvenue chez l'Association Asso di Picche</h1>
+            </div> 
+            <section class="row">
+                <article class="col-3 mx-auto">
+                    <h2>
+                        art 1
+                    </h2>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut voluptatum eligendi alias facere at ut omnis nesciunt harum perferendis corrupti. Ex molestias dolor molestiae veniam exercitationem eius! Nesciunt, voluptate placeat!
+                </article>
+                <article class="col-3 mx-auto">
+                    <h2>
+                        art 2
+                    </h2>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, ullam, magnam veritatis sapiente quibusdam libero repellendus nam adipisci vel hic perspiciatis iure tenetur esse facilis nisi! Debitis consectetur ullam possimus.
+                </article>
+                <article class="col-3 mx-auto">
+                    <h2>
+                        art 3
+                    </h2>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis deserunt quas corporis reiciendis illum debitis nobis, fugiat quidem quo iure sunt eius qui eum quisquam itaque vero ratione cupiditate neque!
+                </article>
+            </section>
+        </div>
+        <div class="row my-4 embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4M1cvpAOcac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <footer id= "footer" class="container-fluid bg-dark">
         <ul class="row">
             <li class="col">
                 <a href="https://www.facebook.com/LAssociazioneVerso"target="_blank"> 
