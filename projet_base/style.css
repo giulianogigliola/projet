@@ -3,6 +3,12 @@ html{
     font-size: 4vh;
     font-family: serif;
 }
+header li{
+    text-align: center;
+}
+a{
+    text-decoration:none;
+}
 .name{
     padding: auto;
     border: 2px solid rgb(133, 84, 20);
@@ -12,9 +18,7 @@ html{
     font-weight: bold;
     color: rgb(10, 7, 7);    
 }
-nav{
 
-}
 section{
     display: flex;
     flex-wrap: wrap;
